@@ -374,6 +374,24 @@
     text-transform: uppercase;
   }
 
+  section h2.section-heading::before {
+    position: absolute;
+    content: url(im/heading_left.png);
+    width: 75px;
+    height: 35px;
+    top: 5px;
+    left: -85px;
+  }
+
+  section h2.section-heading::after {
+    position: absolute;
+    top: 5px;
+    right: -85px;
+    content: url(im/heading_left.png);
+    width: 75px;
+    height: 35px;
+  }
+
   section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
